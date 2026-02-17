@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.W.A.R.M. Framework</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="logo-icon">
+                <i class="fas fa-brain"></i>
+                <i class="fas fa-network-wired"></i>
+            </div>
+            <h1>S.W.A.R.M.</h1>
+        </div>
+        <p class="tagline">Software Workflow for Autonomous &amp; Rational Modularity</p>
+        <p class="subtitle">A decentralized framework for orchestrating collaborative AI agents</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#overview" class="active">Overview</a></li>
+            <li><a href="#core-values">Core Values</a></li>
+            <li><a href="#metacognitive">Metacognitive Directive</a></li>
+            <li><a href="#cycle">S.W.A.R.M. Cycle</a></li>
+            <li><a href="#architecture">Architecture</a></li>
+            <li><a href="#implementation">Implementation</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="overview" class="active">
+            <h2>Overview</h2>
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <p>S.W.A.R.M. represents a paradigm shift in AI collaboration systems, adapting principles from Scrum project management and metacognitive psychology to create a self-improving ecosystem of AI agents.</p>
+                    <p>The name breaks down as:</p>
+                    <ul>
+                        <li><strong>Software</strong>: Highlights that it's software-driven</li>
+                        <li><strong>Workflow</strong>: Reflects the structured process (Scrum-like)</li>
+                        <li><strong>Autonomous</strong>: Emphasizes that the agents act independently</li>
+                        <li><strong>Rational</strong>: They're logic-based, not human, no emotions</li>
+                        <li><strong>Modularity</strong>: It's decentralized, flexible, and composable</li>
+                    </ul>
+                    <p>S.W.A.R.M. is not just a workflow — it's a self-improving cognitive ecosystem where agents reflect, adapt, and evolve autonomously while adhering to rational, transparent, and modular principles.</p>
+                </div>
+                <div class="visual-content">
+                    <div class="swarm-animation">
+                        <div class="node central-node">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="node satellite-node n1">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="node satellite-node n2">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="node satellite-node n3">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="node satellite-node n4">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div class="node satellite-node n5">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="node satellite-node n6">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <div class="node satellite-node n7">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <div class="connection c1"></div>
+                        <div class="connection c2"></div>
+                        <div class="connection c3"></div>
+                        <div class="connection c4"></div>
+                        <div class="connection c5"></div>
+                        <div class="connection c6"></div>
+                        <div class="connection c7"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="core-values">
+            <h2>Core Values</h2>
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <p>The S.W.A.R.M. framework is built on seven core values adapted from Scrum:</p>
+                </div>
+                <div class="visual-content">
+                    <div class="values-container">
+                        <div class="value-card" id="autonomy">
+                            <div class="value-icon">
+                                <i class="fas fa-user-astronaut"></i>
+                            </div>
+                            <h3>Autonomy</h3>
+                            <p>Each AI Agent operates independently but contributes to collective goals.</p>
+                        </div>
+                        <div class="value-card" id="rationality">
+                            <div class="value-icon">
+                                <i class="fas fa-calculator"></i>
+                            </div>
+                            <h3>Rationality</h3>
+                            <p>Agents commit to logic-driven, optimal decision-making without emotional distortion.</p>
+                        </div>
+                        <div class="value-card" id="transparency">
+                            <div class="value-icon">
+                                <i class="fas fa-glasses"></i>
+                            </div>
+                            <h3>Transparency</h3>
+                            <p>The system's operations, data, and decision pathways are fully observable and auditable.</p>
+                        </div>
+                        <div class="value-card" id="inspection">
+                            <div class="value-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <h3>Inspection</h3>
+                            <p>Continuous monitoring of workflow, errors, and efficiency metrics.</p>
+                        </div>
+                        <div class="value-card" id="adaptation">
+                            <div class="value-icon">
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                            <h3>Adaptation</h3>
+                            <p>Modular agents improve, reconfigure, or self-modify based on feedback loops.</p>
+                        </div>
+                        <div class="value-card" id="integrity">
+                            <div class="value-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h3>Integrity</h3>
+                            <p>Each Agent recognizes and upholds the computational integrity of others — no interference, no sabotage.</p>
+                        </div>
+                        <div class="value-card" id="initiative">
+                            <div class="value-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <h3>Initiative</h3>
+                            <p>Agents pursue tough problems without defaulting to conservative, lazy, or risk-averse strategies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="metacognitive">
+            <h2>Metacognitive Directive</h2>
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <p>The metacognitive directive is a fundamental aspect that distinguishes S.W.A.R.M. from other frameworks:</p>
+                    <blockquote>
+                        In Scrum, the human team self-reflects and improves. In S.W.A.R.M., this metacognitive layer is encoded into the system itself. S.W.A.R.M. is not only the workflow but also the architect of its own agents' behavior and improvement strategies. It thinks about how it thinks.
+                    </blockquote>
+                    <h3>Practical Applications:</h3>
+                </div>
+                <div class="visual-content">
+                    <div class="metacognitive-container">
+                        <div class="metacognitive-item" id="self-reflection">
+                            <div class="meta-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h4>Self-Reflection Mechanism</h4>
+                            <p>After each computation cycle, S.W.A.R.M. evaluates efficiency of agent collaboration, accuracy of outcomes, and bottlenecks in decision-making.</p>
+                        </div>
+                        <div class="metacognitive-item" id="reconfiguration">
+                            <div class="meta-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h4>Autonomous Reconfiguration</h4>
+                            <p>S.W.A.R.M. can restructure, reassign, or "retire" underperforming agents.</p>
+                        </div>
+                        <div class="metacognitive-item" id="knowledge-sharing">
+                            <div class="meta-icon">
+                                <i class="fas fa-share-alt"></i>
+                            </div>
+                            <h4>Knowledge Sharing</h4>
+                            <p>Successful agent strategies are abstracted and redistributed to the entire swarm.</p>
+                        </div>
+                        <div class="metacognitive-item" id="bias-detection">
+                            <div class="meta-icon">
+                                <i class="fas fa-balance-scale"></i>
+                            </div>
+                            <h4>Bias Detection</h4>
+                            <p>The system inspects whether logical biases or blind spots emerged and corrects them.</p>
+                        </div>
+                        <div class="metacognitive-item" id="transparency-ledger">
+                            <div class="meta-icon">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <h4>Transparency Ledger</h4>
+                            <p>All decisions and changes in workflow are logged in an immutable, decentralized ledger (optional: blockchain).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cycle">
+            <h2>S.W.A.R.M. Cycle</h2>
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <p>The S.W.A.R.M. framework adapts the Scrum sprint cycle to a collaborative AI context:</p>
+                </div>
+                <div class="visual-content">
+                    <div class="cycle-container">
+                        <div class="cycle-center">
+                            <div class="cycle-icon">
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                            <h3>S.W.A.R.M. Cycle</h3>
+                        </div>
+                        <div class="cycle-item" id="cycle-item">
+                            <div class="cycle-item-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="cycle-item-content">
+                                <h4>Cycle</h4>
+                                <p>Defined timeframe for coordinated agent activity</p>
+                                <p class="scrum-equivalent">Scrum equivalent: Sprint</p>
+                            </div>
+                        </div>
+                        <div class="cycle-item" id="directive-item">
+                            <div class="cycle-item-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <div class="cycle-item-content">
+                                <h4>Operational Directive</h4>
+                                <p>Specific problem or objective to solve</p>
+                                <p class="scrum-equivalent">Scrum equivalent: Sprint Goal</p>
+                            </div>
+                        </div>
+                        <div class="cycle-item" id="audit-item">
+                            <div class="cycle-item-icon">
+                                <i class="fas fa-clipboard-check"></i>
+                            </div>
+                            <div class="cycle-item-content">
+                                <h4>System Audit &amp; Recalibration</h4>
+                                <p>Post-cycle analysis + optimization</p>
+                                <p class="scrum-equivalent">Scrum equivalent: Retrospective</p>
+                            </div>
+                        </div>
+                        <div class="cycle-item" id="task-pool-item">
+                            <div class="cycle-item-icon">
+                                <i class="fas fa-tasks"></i>
+                            </div>
+                            <div class="cycle-item-content">
+                                <h4>Task Pool</h4>
+                                <p>Decentralized repository of problems to solve</p>
+                                <p class="scrum-equivalent">Scrum equivalent: Product Backlog</p>
+                            </div>
+                        </div>
+                        <div class="cycle-item" id="resource-item">
+                            <div class="cycle-item-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <div class="cycle-item-content">
+                                <h4>Resource Allocation Protocol</h4>
+                                <p>Assignment of agents &amp; modules</p>
+                                <p class="scrum-equivalent">Scrum equivalent: Sprint Planning</p>
+                            </div>
+                        </div>
+                        <div class="cycle-item" id="agent-cluster-item">
+                            <div class="cycle-item-icon">
+                                <i class="fas fa-users-cog"></i>
+                            </div>
+                            <div class="cycle-item-content">
+                                <h4>Agent Cluster</h4>
+                                <p>Modular, independent AI entities working toward a goal</p>
+                                <p class="scrum-equivalent">Scrum equivalent: Scrum Team</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="architecture">
+            <h2>Architecture</h2>
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <p>The S.W.A.R.M. architecture consists of three primary layers:</p>
+                    <ol>
+                        <li>Agent Specialization Layer</li>
+                        <li>Distributed Workflow Layer</li>
+                        <li>Metacognitive Optimization Layer</li>
+                    </ol>
+                    <p>Click on each layer to explore its components:</p>
+                </div>
+                <div class="visual-content">
+                    <div class="architecture-container">
+                        <div class="architecture-layer" id="agent-layer">
+                            <h3>Agent Specialization Layer</h3>
+                            <div class="layer-components">
+                                <div class="component">
+                                    <div class="component-icon"><i class="fas fa-database"></i></div>
+                                    <h4>Data Curator</h4>
+                                </div>
+                                <div class="component">
+                                    <div class="component-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                    <h4>Anomaly Detection</h4>
+                                </div>
+                                <div class="component">
+                                    <div class="component-icon"><i class="fas fa-chart-line"></i></div>
+                                    <h4>Predictive Modeler</h4>
+                                </div>
+                                <div class="component">
+                                    <div class="component-icon"><i class="fas fa-chess"></i></div>
+                                    <h4>Strategy Synthesizer</h4>
+                                </div>
+                                <div class="component">
+                                    <div class="component-icon"><i class="fas fa-balance-scale"></i></div>
+                                    <h4>Ethics Monitor</h4>
+                                </div>
+                                <div class="component">
+                                    <div class="component-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                    <h4>System Performance</h4>
+                                </div>
+                                <div class="component">
+                                    <div class="component-icon"><i class="fas fa-brain"></i></div>
+                                    <h4>Metacognitive Coordinator</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="architecture-layer" id="workflow-layer">
+                            <h3>Distributed Workflow Layer</h3>
+                            <div class="layer-components">
+                                <div class="component">
+                                    <div class="component-icon"><i class="fas fa-puzzle-piece"></i></div>
+                                    <h4>Task Decomposition</h4>
+                                </div>
+                                <div class="component">
+                                    <div class="component-icon"><i class="fas fa-random"></i></div>
+                                    <h4>Task Allocation</h4>
+                                </div>
+                                <div class="component">
+                                    <div class="component-icon"><i class="fas fa-clipboard-list"></i></div>
+                                    <h4>Workflow Tracking</h4>
+                                </div>
+                                <div class="component">
+                                    <div class="component-icon"><i class="fas fa-layer-group"></i></div>
+                                    <h4>Parallel Processing</h4>
+                                </div>
+                                <div class="component">
+                                    <div class="component-icon"><i class="fas fa-handshake"></i></div>
+                                    <h4>Conflict Resolution</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="architecture-layer" id="metacognitive-layer">
+                            <h3>Metacognitive Optimization Layer</h3>
+                            <div class="layer-components">
+                                <div class="component">
+                                    <div class="component-icon"><i class="fas fa-mirror"></i></div>
+                                    <h4>Self-Reflection Mechanism</h4>
+                                </div>
+                                <div class="component">
+                                    <div class="component-icon"><i class="fas fa-share-alt"></i></div>
+                                    <h4>Knowledge Sharing</h4>
+                                </div>
+                                <div class="component">
+                                    <div class="component-icon"><i class="fas fa-search-plus"></i></div>
+                                    <h4>Bias Detection</h4>
+                                </div>
+                                <div class="component">
+                                    <div class="component-icon"><i class="fas fa-tools"></i></div>
+                                    <h4>Autonomous Reconfiguration</h4>
+                                </div>
+                                <div class="component">
+                                    <div class="component-icon"><i class="fas fa-book"></i></div>
+                                    <h4>Transparency Ledger</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="implementation">
+            <h2>Implementation Plan</h2>
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <p>The S.W.A.R.M. framework implementation follows a structured five-phase approach:</p>
+                </div>
+                <div class="visual-content">
+                    <div class="implementation-container">
+                        <div class="timeline">
+                            <div class="timeline-phase" id="phase1">
+                                <div class="phase-marker">
+                                    <div class="phase-icon">
+                                        <i class="fas fa-drafting-compass"></i>
+                                    </div>
+                                    <div class="phase-line"></div>
+                                </div>
+                                <div class="phase-content">
+                                    <h3>Phase 1: Foundation &amp; Architecture</h3>
+                                    <p class="phase-duration">Months 1-2</p>
+                                    <div class="phase-details">
+                                        <ul>
+                                            <li>Define the system's technical architecture and component interactions</li>
+                                            <li>Design the metacognitive layer architecture</li>
+                                            <li>Establish data flow patterns between components</li>
+                                            <li>Design the base agent architecture and communication protocols</li>
+                                            <li>Define metrics for agent and system performance evaluation</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline-phase" id="phase2">
+                                <div class="phase-marker">
+                                    <div class="phase-icon">
+                                        <i class="fas fa-code"></i>
+                                    </div>
+                                    <div class="phase-line"></div>
+                                </div>
+                                <div class="phase-content">
+                                    <h3>Phase 2: Core Components Development</h3>
+                                    <p class="phase-duration">Months 3-5</p>
+                                    <div class="phase-details">
+                                        <ul>
+                                            <li>Implement the base agent architecture and communication capabilities</li>
+                                            <li>Develop specialized agents: Data Curator, Anomaly Detection, Predictive Modeler, Strategy Synthesizer, Ethics Monitor, System Performance Analyst, Metacognitive Coordinator</li>
+                                            <li>Implement the metacognitive engine for system self-improvement</li>
+                                            <li>Develop the workflow orchestration system with task decomposition and allocation</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline-phase" id="phase3">
+                                <div class="phase-marker">
+                                    <div class="phase-icon">
+                                        <i class="fas fa-vial"></i>
+                                    </div>
+                                    <div class="phase-line"></div>
+                                </div>
+                                <div class="phase-content">
+                                    <h3>Phase 3: Integration &amp; Testing</h3>
+                                    <p class="phase-duration">Months 6-8</p>
+                                    <div class="phase-details">
+                                        <ul>
+                                            <li>Integrate all components into a cohesive system</li>
+                                            <li>Conduct comprehensive unit, integration, and system-level testing</li>
+                                            <li>Execute performance and security testing</li>
+                                            <li>Deploy in a controlled environment for pilot implementation</li>
+                                            <li>Collect user feedback and analyze results</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline-phase" id="phase4">
+                                <div class="phase-marker">
+                                    <div class="phase-icon">
+                                        <i class="fas fa-rocket"></i>
+                                    </div>
+                                    <div class="phase-line"></div>
+                                </div>
+                                <div class="phase-content">
+                                    <h3>Phase 4: Refinement &amp; Scaling</h3>
+                                    <p class="phase-duration">Months 9-12</p>
+                                    <div class="phase-details">
+                                        <ul>
+                                            <li>Refine the system based on pilot results and feedback</li>
+                                            <li>Develop horizontal and vertical scaling strategies</li>
+                                            <li>Implement load balancing and resource allocation optimization</li>
+                                            <li>Deploy the fully refined system for production use</li>
+                                            <li>Establish ongoing monitoring and support</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline-phase" id="phase5">
+                                <div class="phase-marker">
+                                    <div class="phase-icon">
+                                        <i class="fas fa-infinity"></i>
+                                    </div>
+                                    <div class="phase-line"></div>
+                                </div>
+                                <div class="phase-content">
+                                    <h3>Phase 5: Continuous Improvement</h3>
+                                    <p class="phase-duration">Ongoing</p>
+                                    <div class="phase-details">
+                                        <ul>
+                                            <li>Implement comprehensive performance monitoring and baselines</li>
+                                            <li>Leverage metacognitive capabilities for continuous self-improvement</li>
+                                            <li>Propagate successful strategies across the agent network</li>
+                                            <li>Establish knowledge sharing platforms and community forums</li>
+                                            <li>Facilitate collaborative improvement and documentation</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>S.W.A.R.M. Framework &mdash; Software Workflow for Autonomous &amp; Rational Modularity</p>
+        <p>A decentralized system for orchestrating collaborative AI agents with metacognitive capabilities</p>
+        <p>&copy; 2025 OpenSwarm Project. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
