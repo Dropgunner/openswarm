@@ -201,77 +201,82 @@
 
         <section id="cycle">
             <h2>S.W.A.R.M. Cycle</h2>
-            <div class="content-wrapper">
-                <div class="text-content">
-                    <p>The S.W.A.R.M. framework adapts the Scrum sprint cycle to a collaborative AI context:</p>
+            <div class="cycle-section">
+                <div class="cycle-intro">
+                    <p>The S.W.A.R.M. framework adapts the Scrum sprint cycle to a collaborative AI context. Each element maps directly to a Scrum concept, re-engineered for autonomous agent orchestration.</p>
                 </div>
-                <div class="visual-content">
-                    <div class="cycle-container">
-                        <div class="cycle-center">
-                            <div class="cycle-icon">
-                                <i class="fas fa-sync-alt"></i>
-                            </div>
-                            <h3>S.W.A.R.M. Cycle</h3>
+                <div class="cycle-hub">
+                    <div class="cycle-hub-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>S.W.A.R.M. Cycle</h3>
+                    <p>Continuous loop of planning, execution, and reflection</p>
+                </div>
+                <div class="cycle-grid">
+                    <div class="cycle-card" id="cycle-item">
+                        <div class="cycle-card-header">
+                            <div class="cycle-card-icon"><i class="fas fa-clock"></i></div>
+                            <div class="cycle-card-number">01</div>
                         </div>
-                        <div class="cycle-item" id="cycle-item">
-                            <div class="cycle-item-icon">
-                                <i class="fas fa-clock"></i>
-                            </div>
-                            <div class="cycle-item-content">
-                                <h4>Cycle</h4>
-                                <p>Defined timeframe for coordinated agent activity</p>
-                                <p class="scrum-equivalent">Scrum equivalent: Sprint</p>
-                            </div>
+                        <h4>Cycle</h4>
+                        <p>Defined timeframe for coordinated agent activity</p>
+                        <div class="cycle-card-footer">
+                            <span class="scrum-tag"><i class="fas fa-exchange-alt"></i> Sprint</span>
                         </div>
-                        <div class="cycle-item" id="directive-item">
-                            <div class="cycle-item-icon">
-                                <i class="fas fa-bullseye"></i>
-                            </div>
-                            <div class="cycle-item-content">
-                                <h4>Operational Directive</h4>
-                                <p>Specific problem or objective to solve</p>
-                                <p class="scrum-equivalent">Scrum equivalent: Sprint Goal</p>
-                            </div>
+                    </div>
+                    <div class="cycle-card" id="directive-item">
+                        <div class="cycle-card-header">
+                            <div class="cycle-card-icon"><i class="fas fa-bullseye"></i></div>
+                            <div class="cycle-card-number">02</div>
                         </div>
-                        <div class="cycle-item" id="audit-item">
-                            <div class="cycle-item-icon">
-                                <i class="fas fa-clipboard-check"></i>
-                            </div>
-                            <div class="cycle-item-content">
-                                <h4>System Audit &amp; Recalibration</h4>
-                                <p>Post-cycle analysis + optimization</p>
-                                <p class="scrum-equivalent">Scrum equivalent: Retrospective</p>
-                            </div>
+                        <h4>Operational Directive</h4>
+                        <p>Specific problem or objective to solve</p>
+                        <div class="cycle-card-footer">
+                            <span class="scrum-tag"><i class="fas fa-exchange-alt"></i> Sprint Goal</span>
                         </div>
-                        <div class="cycle-item" id="task-pool-item">
-                            <div class="cycle-item-icon">
-                                <i class="fas fa-tasks"></i>
-                            </div>
-                            <div class="cycle-item-content">
-                                <h4>Task Pool</h4>
-                                <p>Decentralized repository of problems to solve</p>
-                                <p class="scrum-equivalent">Scrum equivalent: Product Backlog</p>
-                            </div>
+                    </div>
+                    <div class="cycle-card" id="resource-item">
+                        <div class="cycle-card-header">
+                            <div class="cycle-card-icon"><i class="fas fa-project-diagram"></i></div>
+                            <div class="cycle-card-number">03</div>
                         </div>
-                        <div class="cycle-item" id="resource-item">
-                            <div class="cycle-item-icon">
-                                <i class="fas fa-project-diagram"></i>
-                            </div>
-                            <div class="cycle-item-content">
-                                <h4>Resource Allocation Protocol</h4>
-                                <p>Assignment of agents &amp; modules</p>
-                                <p class="scrum-equivalent">Scrum equivalent: Sprint Planning</p>
-                            </div>
+                        <h4>Resource Allocation Protocol</h4>
+                        <p>Assignment of agents &amp; modules to tasks</p>
+                        <div class="cycle-card-footer">
+                            <span class="scrum-tag"><i class="fas fa-exchange-alt"></i> Sprint Planning</span>
                         </div>
-                        <div class="cycle-item" id="agent-cluster-item">
-                            <div class="cycle-item-icon">
-                                <i class="fas fa-users-cog"></i>
-                            </div>
-                            <div class="cycle-item-content">
-                                <h4>Agent Cluster</h4>
-                                <p>Modular, independent AI entities working toward a goal</p>
-                                <p class="scrum-equivalent">Scrum equivalent: Scrum Team</p>
-                            </div>
+                    </div>
+                    <div class="cycle-card" id="task-pool-item">
+                        <div class="cycle-card-header">
+                            <div class="cycle-card-icon"><i class="fas fa-tasks"></i></div>
+                            <div class="cycle-card-number">04</div>
+                        </div>
+                        <h4>Task Pool</h4>
+                        <p>Decentralized repository of problems to solve</p>
+                        <div class="cycle-card-footer">
+                            <span class="scrum-tag"><i class="fas fa-exchange-alt"></i> Product Backlog</span>
+                        </div>
+                    </div>
+                    <div class="cycle-card" id="agent-cluster-item">
+                        <div class="cycle-card-header">
+                            <div class="cycle-card-icon"><i class="fas fa-users-cog"></i></div>
+                            <div class="cycle-card-number">05</div>
+                        </div>
+                        <h4>Agent Cluster</h4>
+                        <p>Modular, independent AI entities working toward a goal</p>
+                        <div class="cycle-card-footer">
+                            <span class="scrum-tag"><i class="fas fa-exchange-alt"></i> Scrum Team</span>
+                        </div>
+                    </div>
+                    <div class="cycle-card" id="audit-item">
+                        <div class="cycle-card-header">
+                            <div class="cycle-card-icon"><i class="fas fa-clipboard-check"></i></div>
+                            <div class="cycle-card-number">06</div>
+                        </div>
+                        <h4>System Audit &amp; Recalibration</h4>
+                        <p>Post-cycle analysis + optimization</p>
+                        <div class="cycle-card-footer">
+                            <span class="scrum-tag"><i class="fas fa-exchange-alt"></i> Retrospective</span>
                         </div>
                     </div>
                 </div>
